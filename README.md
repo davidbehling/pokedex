@@ -31,7 +31,7 @@ Funcionalidades principais:
 Os dados são obtidos diretamente da:
 
 🔗 **PokéAPI**  
-https://pokeapi.co
+[https://pokeapi.co](https://pokeapi.co/api/v2/pokemon/)
 
 API pública e gratuita amplamente utilizada para projetos educacionais.
 
@@ -41,11 +41,6 @@ API pública e gratuita amplamente utilizada para projetos educacionais.
 Fluxo básico da aplicação:
 
 ```
-
-UI (Componentes)
-↓
-Service / Fetch API
-↓
 PokéAPI (REST)
 ↓
 Tratamento de dados
@@ -59,26 +54,18 @@ Renderização na tela
 
 ```
 
-pokedex/
-├── src/
-│   ├── components/            # Componentes da interface
-│   │   ├── PokemonCard.js     # Card de exibição do Pokémon
-│   │   ├── PokemonList.js     # Lista de Pokémon
-│   │   └── SearchBar.js       # Campo de busca
-│   │
-│   ├── services/              # Comunicação com a API
-│   │   └── pokeApiService.js
-│   │
-│   ├── styles/                # Estilos da aplicação
-│   │   └── main.css
-│   │
-│   ├── App.js                 # Componente raiz
-│   └── index.js               # Entry point
+Pokedex/
+├── css/ # Estilos da aplicação
+│ └── style.css
 │
-├── public/                    # Arquivos públicos
+├── js/ # Scripts JavaScript
+│ └── script.js
 │
-├── package.json               # Dependências e scripts
-└── README.md                  # Documentação
+├── images/ # Imagens e sprites
+│ └── ...
+│
+├── index.html # Página principal
+└── README.md # Documentação
 
 ````
 
@@ -90,39 +77,21 @@ pokedex/
 - **JavaScript (ES6+)**
 - **HTML5**
 - **CSS3**
-- **Fetch API / Axios**
-- (Opcional) **React**
-
 
 # 🚀 Como Executar o Projeto
 
-## Pré-requisitos
-- Node.js **16+**
-- npm ou yarn
+## Opção 1 — Abrir direto no navegador
 
-## Instalação
-```bash
-npm install
-# ou
-yarn install
-````
+Abra o arquivo index.html no navegador
 
-## Executar em desenvolvimento
+## Opção 2 — Live Server (VSCode)
 
-```bash
-npm start
-# ou
-yarn start
-```
-
-A aplicação ficará disponível em:
-
-```
-http://localhost:3000
-```
+1. Instale a extensão **Live Server**
+2. Clique com o botão direito em `index.html`
+3. Selecione **Open with Live Server**
 
 
-# 🚀 Possíveis Evoluções
+## 🚀 Possíveis Evoluções
 
 * ⭐ Favoritar Pokémon
 * 📊 Paginação
