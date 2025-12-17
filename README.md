@@ -14,7 +14,7 @@ Projeto criado com foco **educacional e de portfólio**, demonstrando:
 - Criação de interfaces interativas
 
 
-# 📌 Visão Geral
+## 📌 Visão Geral
 
 Funcionalidades principais:
 
@@ -26,7 +26,7 @@ Funcionalidades principais:
 - 📱 Interface simples e intuitiva
 
 
-# 🧠 Fonte de Dados
+## 🧠 Fonte de Dados
 
 Os dados são obtidos diretamente da:
 
@@ -36,7 +36,7 @@ Os dados são obtidos diretamente da:
 API pública e gratuita amplamente utilizada para projetos educacionais.
 
 
-# 🏗️ Arquitetura da Aplicação
+## 🏗️ Arquitetura da Aplicação
 
 Fluxo básico da aplicação:
 
@@ -46,45 +46,41 @@ PokéAPI (REST)
 Tratamento de dados
 ↓
 Renderização na tela
-
 ```
 
 
-# 📂 Estrutura de Diretórios
+## 📂 Estrutura de Diretórios
 
 ```
-
 Pokedex/
-├── css/ # Estilos da aplicação
-│ └── style.css
-│
-├── js/ # Scripts JavaScript
-│ └── script.js
-│
-├── images/ # Imagens e sprites
-│ └── ...
-│
-├── index.html # Página principal
-└── README.md # Documentação
+├── css
+│   └── style.css
+├── favicons
+│   ├── favicon-16x16.png
+│   ├── pokedex-icon-15.jpg
+│   └── pokedex-icon-28.jpg
+├── images
+│   └── pokedex.png
+├── index.html
+├── js
+│   └── script.js
+└── README.md
 
 ````
 
-> Estrutura organizada para facilitar manutenção e expansão.
-
-
-# ⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
 - **JavaScript (ES6+)**
 - **HTML5**
 - **CSS3**
 
-# 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-## Opção 1 — Abrir direto no navegador
+### Opção 1 — Abrir direto no navegador
 
 Abra o arquivo index.html no navegador
 
-## Opção 2 — Live Server (VSCode)
+### Opção 2 — Live Server (VSCode)
 
 1. Instale a extensão **Live Server**
 2. Clique com o botão direito em `index.html`
