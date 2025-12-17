@@ -95,3 +95,11 @@ Abra o arquivo index.html no navegador
 * 🌙 Dark mode
 * 📱 Melhorias de responsividade
 * 🧠 Cache de requisições
+
+## 🖥️  Imagem
+
+![pokedex](https://github.com/davidbehling/pokedex/blob/main/public/print.png)
+
+## 🔗 Link Teste
+
+https://silly-mermaid-2921ce.netlify.app/
